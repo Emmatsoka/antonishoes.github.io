@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body{
+    font-family: "Roboto Condensed", sans-serif !important;
+    background:  rgb(233, 233, 233) !important;
+    transition: 0.3s all !important;
+    -webkit-transition: 0.3s all !important;
+    -moz-transition: 0.3s all !important;
+    -ms-transition: 0.3s all !important;
+    -o-transition: 0.3s all !important;
+}
+html{
+  scroll-behavior: smooth !important;
+}
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-size: 23px !important;
+    border-bottom: 1px solid  #2e2e2e !important;
+  
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    transition:  0.5s all !important;
+    -webkit-transition:  0.5s all !important;
+    -moz-transition:  0.5s all !important;
+    -ms-transition:  0.5s all !important;
+    -o-transition:  0.5s all !important;
+  
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.685) !important;
+    transition: 0.5s all !important;
+    -webkit-transition: 0.5s all !important;
+    -moz-transition: 0.5s all !important;
+    -ms-transition: 0.5s all !important;
+    -o-transition: 0.5s all !important;
+    
+}
+a{
+  color: none !important;
+  text-decoration: none !important;
+}
+.navbar-brand:hover > .nav-link{
+    font-weight: 700 !important;
+}
+.navbar{
+  background:  #0e0e0e !important;
+    backdrop-filter: blur(5px);
+    padding: 10px !important;
+
+  
+}
+ul{
+  margin-left: -50px !important;
+}
+
+#nav{  position: absolute !important;
+top: 0;
+width: 100% !important;
+position: fixed !important;
+z-index: 666;
+}
+
+.navbar-brand{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 700!important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    font-size: 30px !important;
+    border-bottom: none !important;
+
+    transition: 0.4s all!important;
+
+   
+}
+.navbar-brand span{
+    font-weight: 400 !important;
+}
+.navbar-brand span:hover{
+    font-weight: 700 !important;
+    transition: 0.4s all!important;
+    -webkit-transition: 0.4s all!important;
+    -moz-transition: 0.4s all!important;
+    -ms-transition: 0.4s all!important;
+    -o-transition: 0.4s all!important;
+}
+header{
+    width: 100% !important;
+    height: 100vh !important;
+    background-image: url(./kepek/header.jpg);
+   
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+
+}
+#tartalom{
+    background:  rgb(233, 233, 233) !important;
+    height: 100vh !important;
+    padding-top: 150px !important;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block !important;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+
+  @media (min-width: 200px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+  
+.dropdown-menu{
+  background:  rgb(14, 14, 14) !important;
+    border: none !important;
+    width: fit-content !important;
+
+}
+.dropdown-item{
+    color: rgb(255, 255, 255) !important;
+    text-align: left !important;
+    font-size: 19px !important;
+    font-weight: 400 !important;
+}
+.dropdown-item img{
+    height: 20px !important;
+    width: 20px !important;
+    filter: invert() !important      ;
+    -webkit-filter: invert() !important      ;
+}
+.dropdown-item:hover{
+    color: rgb(224, 224, 224) !important;
+    background-color: rgba(117, 117, 117, 0.205) !important;
+    
+}
+
+  
+ .navbar-toggler {
+    border-color: rgba(247, 247, 247, 0) !important;
+  } 
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0)  !important;
+  }
+  .navbar-toggler:active{
+    border-color: rgba(255, 255, 255, 0)  !important;
+  }
+  .navbar-toggler :focus{
+    border-color: rgba(255, 255, 255, 0) !important;
+  }
+  .navbar-dark .navbar-toggler:focus {
+    border-color: #760808 !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #000000 !important;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #680000;
+
+}
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1a0000 ;
+  }
+
+
+  .icons img{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    transition: 0.4s all !important;
+    -webkit-transition: 0.4s all !important;
+    -moz-transition: 0.4s all !important;
+    -ms-transition: 0.4s all !important;
+    -o-transition: 0.4s all !important;
+}
+
+  #tartalom h1{
+    text-align: center !important;
+    padding: 40px !important;
+    font-size: 50px !important;
+   
+    font-weight:  700 !important;
+    font-style: italic !important;
+  }
+  .icons{
+    float: right !important;
+    border-bottom: none !important;
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+    filter: invert() !important ;
+    -webkit-filter: invert() !important ;
+}
+.icons img:hover{
+    transition: 0.4s all !important;
+    opacity: 50% !important;
+    -webkit-transition: 0.4s all !important;
+    -moz-transition: 0.4s all !important;
+    -ms-transition: 0.4s all !important;
+    -o-transition: 0.4s all !important;
+}
+
+@media only screen and (max-width: 992px){
+  .dropdown-item{
+    margin-left: 55px !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+ .dropdown-item{
+    text-align: left !important;
+ }
+}
+.carousel{
+  z-index: 2 !important;
+  float:right;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  margin-top: 17vh;
+  margin-right: 4vw;
+}
+.carousel-item img{
+ z-index: 2 !important;
+ filter:  brightness(70%);
+  width: 38vw !important;
+  height:  59.82053838484546vh !important;
+}
+.carousel-item{
+  
+
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.nav-link img{
+  filter: invert() !important;
+  -webkit-filter: invert() !important;
+}
+.objektum{
+  width: 100% !important;
+  height: 100vh;
+  position: absolute !important;
+  top:0;
+  background-image: url(./kepek/objektum.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (min-width: 992px) {
+  .headerszoveg{
+    position:absolute !important;
+    top:0 !important;
+    top: 40vh !important;
+  left: 10vw;
+  }
+    .collapse{
+        margin-left: -20px !important;
+    }
+    .icons{
+        position: absolute !important;
+        right: 0;
+        float: right !important;
+        border-bottom: none !important;
+        position:relative;
+        margin-left: 40px !important;
+        margin-right: 40px !important;  
+    right: 0;
+    word-spacing: normal;
+    margin-top: 10px !important;
+    }
+    .dropdown-menu{
+      margin-left: 0px !important;
+    }
+    .navbar-brand{
+      position: absolute;
+      left: 20px !important;
+    }
+  }
+.headerszoveg{
+
+  z-index: 500;
+  
+  font-family: 'Monoton', cursive;
+  
+ & h1{
+  color: white !important;
+  padding-bottom: 10px !important;
+  margin-top: 20px !important;
+  font-size: 50px !important;
+
+ } 
+}
+.headerszoveg hr{
+  max-width: 350px !important;
+  background-color: rgb(240, 240, 240);
+  margin: 0 auto !important;
+  margin-bottom: 10px !important;
+}
+@media only screen and (max-width: 992px) {
+
+header{
+  margin: 0 auto !important;
+  text-align:  center !important;
+}
+.headerszoveg h1{
+  text-align: center !important;
+  margin: 0 auto !important;
+  margin: 10px !important;
+ 
+}
+.headerszoveg{
+  text-align: center !important;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(-50%);
+
+  max-width: fit-content !important;
+}
+}
+
+.gomb{
+  padding: 5px 20px 5px 20px!important;
+  background-color: white ;
+  color:  black !important;
+  text-align: center !important;
+  margin: 15px 10px 15px 10px!important;
+  display: inline-block !important;
+  font-family:  "Roboto Condensed", sans-serif !important;
+  font-weight: 550 !important;
+  border: none !important;
+  font-size: 22px !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+  border-radius: 4px ;
+  -webkit-border-radius: 4px ;
+  -moz-border-radius: 4px ;
+  -ms-border-radius: 4px ;
+  -o-border-radius: 4px ;
+}
+.gomb:hover{
+  background-color: #d30000!important;
+  color:white !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+.gombok{
+
+  text-align: center !important;
+}
+.piros{
+  color: #d30000 !important;
+}
+.piroshatter{
+  background-color: #d30000;
+  color: white !important;
+}
+.piroshatter:hover{
+  color:black !important;
+  background-color: white !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+footer{
+  height: 40vh !important;
+  width: 100% !important;
+  background-color: #0e0e0e !important;
+
+}
+.cipohatter{
+  background-image: url(./kepek/cipohatter.png);
+  height: 71.78464606181456vh !important;
+  position: absolute !important;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: fit-content !important;
+  top: 0vh ;
+  right: 0vw;
+  z-index: 500;
+}
+
+.carousel button{
+  z-index: 50;
+  font-weight: 501 !important;
+  float: right !important;
+  font-size: 20px !important;
+  margin-right: 100px !important;
+  background-color: #d3000000 !important;
+  border: none !important;
+  padding: 5px 30px 5px 30px!important;
+  color: rgb(143, 143, 143)!important;
+  border:double rgb(129, 129, 129) 10px !important;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+.carousel button:hover{
+  border-color: #d30000 !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+  color: #d30000!important;
+}
+.vekonybetu{
+  font-weight: 400 !important;
+}
