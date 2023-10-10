@@ -97,7 +97,7 @@ header{
 }
 #tartalom{
     background:  rgb(233, 233, 233) !important;
-    height: 100vh !important;
+    height: fit-content !important;
     padding-top: 150px !important;
 }
 .dropdown:hover>.dropdown-menu {
@@ -374,25 +374,22 @@ header{
   background-color: white ;
   color:  black !important;
   text-align: center !important;
-  margin: 15px 10px 15px 10px!important;
+  margin: 15px 7px 15px 7px!important;
   display: inline-block !important;
   font-family:  "Roboto Condensed", sans-serif !important;
-  font-weight: 550 !important;
+  font-weight: 400 !important;
   border: none !important;
-  font-size: 22px !important;
+  font-size: 20px !important;
   transition: 0.3s all !important;
   -webkit-transition: 0.3s all !important;
   -moz-transition: 0.3s all !important;
   -ms-transition: 0.3s all !important;
   -o-transition: 0.3s all !important;
-  border-radius: 4px ;
-  -webkit-border-radius: 4px ;
-  -moz-border-radius: 4px ;
-  -ms-border-radius: 4px ;
-  -o-border-radius: 4px ;
+
+
 }
 .gomb:hover{
-  background-color: #d30000!important;
+  background-color: #b40000!important;
   color:white !important;
   transition: 0.3s all !important;
   -webkit-transition: 0.3s all !important;
@@ -405,10 +402,10 @@ header{
   text-align: center !important;
 }
 .piros{
-  color: #d30000 !important;
+  color: #b40000 !important;
 }
 .piroshatter{
-  background-color: #d30000;
+  background-color: #b40000;
   color: white !important;
 }
 .piroshatter:hover{
@@ -424,7 +421,7 @@ footer{
   height: 40vh !important;
   width: 100% !important;
   background-color: #0e0e0e !important;
-
+  margin-top: 50px !important;
 }
 .cipohatter{
   background-image: url(./kepek/cipohatter.png);
@@ -472,4 +469,157 @@ footer{
 }
 .vekonybetu{
   font-weight: 400 !important;
+}
+
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+  -webkit-transition: transform 0.6s ease-in-out;
+  -moz-transition: transform 0.6s ease-in-out;
+  -ms-transition: transform 0.6s ease-in-out;
+  -o-transition: transform 0.6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 0.6s ;
+  -webkit-transition: opacity 0s 0.6s ;
+  -moz-transition: opacity 0s 0.6s ;
+  -ms-transition: opacity 0s 0.6s ;
+  -o-transition: opacity 0s 0.6s ;
+}
+
+
+.carousel-container {
+  width: 80% !important;
+  margin: 50px auto;
+  position: relative;
+  margin-bottom: 30vh !important;
+  
+}
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 95%;
+  }
+}
+.inner-carousel {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.track {
+  display: inline-flex;
+  height: 100%;
+  transition: transform 0.8s ease-in-out;
+  -webkit-transition: transform 0.8s ease-in-out;
+  -moz-transition: transform 0.8s ease-in-out;
+  -ms-transition: transform 0.8s ease-in-out;
+  -o-transition: transform 0.8s ease-in-out;
+}
+.card-container {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  padding-right: 40px;
+
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    width: 350px !important;
+    height: auto !important;
+  }
+}
+.card {
+  border-radius: 30px !important;
+  -webkit-border-radius: 30px !important;
+  -moz-border-radius: 30px !important;
+  -ms-border-radius: 30px !important;
+  -o-border-radius: 30px !important;
+  width: 100%;
+  height: 100%;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  */background-position: center bottom;
+  background-size: center;
+  background-repeat: no-repeat;
+}
+
+.nav button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.nav .prev {
+  left: -30px;
+  display: none;
+}
+.nav .prev.show {
+  display: block;
+}
+.nav .next {
+  right: -30px;
+}
+.nav .next.hide {
+  display: none;
+}
+.card img{
+  margin:0 auto !important;
+ margin-top: 20px !important;
+ margin-bottom: 10px !important;
+}
+.card button{
+  width: fit-content !important;
+  padding: 10px 15px 10px 15px !important;
+  position: absolute;
+  bottom: 20px !important;
+  left: 20px !important;
+  border-radius: 20px !important;
+  border: none !important;
+  background-color: black !important;
+  color:  white !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+.card button:hover{
+  background-color: rgb(150, 150, 150) !important;
+  color:  rgb(0, 0, 0) !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+.card h2{
+  text-align: center !important;
+}
+.tartalomvalamikep{
+  width: 100% !important;
+  height: 50vh !important;
+  background-image: url(./kepek/header.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#tartalom .tartalomvalamikep{
+  margin-top: 50px !important;
+  margin-bottom: 20vh !important;
+}
+
+.card img{
+  size: 50% !important;
 }
