@@ -210,7 +210,7 @@ header{
   
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #1a0000 ;
+    background: #580000 ;
   }
 
 
@@ -370,9 +370,9 @@ header{
 }
 
 .gomb{
-  padding: 5px 20px 5px 20px!important;
-  background-color: white ;
-  color:  black !important;
+  padding: 5px 25px 5px 25px!important;
+  background-color: #a10000!important;
+  color:  rgb(255, 255, 255) !important;
   text-align: center !important;
   margin: 15px 7px 15px 7px!important;
   display: inline-block !important;
@@ -389,8 +389,8 @@ header{
 
 }
 .gomb:hover{
-  background-color: #b40000!important;
-  color:white !important;
+  background-color: #ffffff!important;
+  color:rgb(0, 0, 0) !important;
   transition: 0.3s all !important;
   -webkit-transition: 0.3s all !important;
   -moz-transition: 0.3s all !important;
@@ -417,12 +417,7 @@ header{
   -ms-transition: 0.3s all !important;
   -o-transition: 0.3s all !important;
 }
-footer{
-  height: 40vh !important;
-  width: 100% !important;
-  background-color: #0e0e0e !important;
-  margin-top: 50px !important;
-}
+
 .cipohatter{
   background-image: url(./kepek/cipohatter.png);
   height: 71.78464606181456vh !important;
@@ -545,7 +540,12 @@ footer{
   background-size: center;
   background-repeat: no-repeat;
 }
-
+.card p{
+  position: absolute;
+  left: 20px !important;
+  bottom: 10px !important;
+  font-size: 20px !important;
+}
 .nav button {
   position: absolute;
   top: 50%;
@@ -580,7 +580,7 @@ footer{
   padding: 10px 15px 10px 15px !important;
   position: absolute;
   bottom: 20px !important;
-  left: 20px !important;
+  right: 20px !important;
   border-radius: 20px !important;
   border: none !important;
   background-color: black !important;
@@ -603,9 +603,16 @@ footer{
   -moz-transition: 0.3s all !important;
   -ms-transition: 0.3s all !important;
   -o-transition: 0.3s all !important;
+
+}
+.card button:hover img{
+  filter: invert(0%) !important;
+  -webkit-filter: invert(0%) !important;
 }
 .card h2{
   text-align: center !important;
+  max-width: 80% !important;
+  margin: 0 auto !important;
 }
 .tartalomvalamikep{
   width: 100% !important;
@@ -622,4 +629,222 @@ footer{
 
 .card img{
   size: 50% !important;
+}
+
+.card hr{
+
+  width: 70% !important;
+  margin: 0 auto !important;
+  text-align:  center !important;
+}
+.card p{
+  margin-left: 20px !important;
+  margin-top: 20px !important;
+}
+.card button img{
+  filter: invert() !important;
+  -webkit-filter: invert() !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.kosar{
+  font-family: "Roboto Condensed", sans-serif !important;
+  position: fixed;
+  top: 70px !important;
+  right: 50px !important;
+  width: 400px !important;
+  height: 500px !important;
+  background-color:rgb(14, 14, 14)!important;
+  z-index: 1000;
+  color: white !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+.kosar .fejlec{
+  margin: 20px !important;
+  text-align: center !important;
+  font-size: 25px !important;
+  font-weight: 550 !important;
+}
+.kosar .kosarlab{
+  position: absolute;
+  bottom: 0;
+  left:125px !important;
+  width: fit-content !important;
+  margin: 20px !important;
+}
+.kosar .kosarlab h3 {
+  font-weight: 550 !important;
+}
+.kosar #kosartargy{
+  border-radius: 20px !important;
+  margin: 20px !important;
+  padding: 20px !important;
+  border: 1px rgb(61, 61, 61) solid;
+  width: 360px !important;
+  height: 300px !important;
+  overflow: scroll !important;
+  
+overflow-x: hidden !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+}
+.kosar #teljesar{
+  color: #ac0202 !important;
+}
+#kosar{
+  display: none;
+  
+}
+.icons button{
+  border: none !important;
+  background-color: transparent !important;
+}
+.cart-item img{
+  max-width: 80px;
+  max-height: auto !important;
+
+}
+.cart-item{
+
+  display:grid;
+  background-color: white !important;
+  margin: 10px !important;
+  color: black !important;
+  padding: 20px !important;
+ text-align: center !important;
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+.cart-item button{
+  background-color: black !important;
+  border: none !important;
+  padding: 10px !important;
+  color:  white !important;
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+  float: right !important;
+  height: fit-content !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+
+}
+.cart-item button:hover{
+  background-color: rgb(150, 150, 150) !important;
+  color:  rgb(0, 0, 0) !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+.cart-item h2{
+  text-align: center;
+  font-size: 24px !important;
+  margin: 5px !important;
+}
+.cart-item p{
+  font-size: 25px !important;
+  font-weight: 550 !important;
+  text-align: center !important;
+}
+footer{
+  height: fit-content !important;
+  width: 100% !important;
+  background-color: #0e0e0e !important;
+  margin-top: 50px !important;
+}
+footer .row{
+  padding: 50px !important;
+  text-align: center !important;
+}
+footer{
+  color:  white !important;
+}
+.vastag{
+  font-weight: 550 !important;
+}
+.row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+footer ul li{
+  list-style: none !important;
+  list-style-type: none !important;
+  display: inline !important;
+
+  
+}
+footer .col-sm{
+  margin-bottom: 40px !important;
+}
+footer ul li img{
+  height: 30px !important;
+  width: 30px !important;
+  filter: invert() !important;
+  -webkit-filter: invert() !important;
+  margin: 10px !important;
+  cursor: pointer;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+footer ul li img:hover{
+  filter: invert(50%) !important;
+  -webkit-filter: invert(50%) !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+}
+footer ul{
+  padding-left: 0px !important;
+  margin: 0 auto !important;
+}
+@media only screen and (max-width: 992px){
+  .kosar{
+    font-family: "Roboto Condensed", sans-serif !important;
+    position: fixed;
+    top: 520px !important;
+    top: 50%;  
+    left: 50%; 
+    margin:0 auto !important;
+    text-align: center !important;
+    transform: translate(-50%, -50%); 
+    width: 100% !important;
+    height: 500px !important;
+    background-color:rgb(14, 14, 14)!important;
+    z-index: 1000;
+    color: white !important;
+    transition: 0.3s all !important;
+    -webkit-transition: 0.3s all !important;
+    -moz-transition: 0.3s all !important;
+    -ms-transition: 0.3s all !important;
+    -o-transition: 0.3s all !important;
+  }
+  .kosar #kosartargy{
+    width: 95% !important;
+  }
 }
