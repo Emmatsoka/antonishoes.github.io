@@ -680,7 +680,8 @@ header{
   font-weight: 550 !important;
 }
 .kosar #kosartargy{
-  border-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
   margin: 20px !important;
   padding: 20px !important;
   border: 1px rgb(61, 61, 61) solid;
@@ -689,10 +690,7 @@ header{
   overflow: scroll !important;
   
 overflow-x: hidden !important;
-  -webkit-border-radius: 20px !important;
-  -moz-border-radius: 20px !important;
-  -ms-border-radius: 20px !important;
-  -o-border-radius: 20px !important;
+
 }
 .kosar #teljesar{
   color: #ac0202 !important;
