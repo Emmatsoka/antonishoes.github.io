@@ -330,14 +330,15 @@ header{
   
   font-family: 'Monoton', cursive;
   
- & h1{
+ 
+}
+.headerszoveg h1{
   color: white !important;
   padding-bottom: 10px !important;
   margin-top: 20px !important;
   font-size: 50px !important;
 
  } 
-}
 .headerszoveg hr{
   max-width: 350px !important;
   background-color: rgb(240, 240, 240);
@@ -845,4 +846,33 @@ footer ul{
   .kosar #kosartargy{
     width: 95% !important;
   }
+}
+
+.footergomb{
+  padding: 5px 25px 5px 25px!important;
+  background-color: #ffffff!important;
+  color:  rgb(0, 0, 0) !important;
+  text-align: center !important;
+  margin: 15px 7px 15px 7px!important;
+  display: inline-block !important;
+  font-family:  "Roboto Condensed", sans-serif !important;
+  font-weight: 400 !important;
+  border: none !important;
+  font-size: 20px !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
+
+
+}
+.footergomb:hover{
+  background-color: #747474!important;
+  color:rgb(255, 255, 255) !important;
+  transition: 0.3s all !important;
+  -webkit-transition: 0.3s all !important;
+  -moz-transition: 0.3s all !important;
+  -ms-transition: 0.3s all !important;
+  -o-transition: 0.3s all !important;
 }
